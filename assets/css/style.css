@@ -1,3 +1,28 @@
+#navigation-bar {
+    height: 75px;
+}
+#fhc-logo {
+    width: 80%;
+}
+
 .carousel-item img {
-    height: 300px;
+    height: 400px;
+}
+
+#hero-carousel {
+    position: relative;
+}
+#title-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width:50%;
+    height: 100%;
+    z-index: 2;
+
+    background-color: rgba(53, 66, 126, 0.6);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
