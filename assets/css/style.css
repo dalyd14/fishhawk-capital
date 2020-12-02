@@ -1,6 +1,9 @@
 #navigation-bar {
     height: 75px;
 }
+#navigation-bar img {
+    height: 75px;
+}
 #fhc-logo {
     width: 80%;
 }
@@ -16,7 +19,7 @@
     position: absolute;
     top: 0;
     left: 0;
-    width:50%;
+    width:30%;
     height: 100%;
     z-index: 2;
 
