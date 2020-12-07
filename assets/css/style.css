@@ -22,7 +22,7 @@ a {
     position: absolute;
     top: 0;
     left: 0;
-    width:25%;
+    width:30%;
     height: 100%;
     z-index: 2;
 
@@ -65,11 +65,26 @@ a {
     background-position: center;
 }
 
-#core-values {
+#core-values, #mission, #meet-the-team {
+    padding: 20px 5%;
+}
+
+#core-values, #meet-the-team {
     background-color: white;
     color: #1B3769;
 
     text-align: center;
+}
+#core-values h2 {
+    margin-bottom: 15px;
+}
+#core-values h3 {
+    font-size: 20px;
+    margin: 0;
+}
+#core-values p {
+    text-align: justify;
+    padding: 0 10px;
 }
 
 #mission {
@@ -77,18 +92,15 @@ a {
     color: white;
 
     text-align: center;
-
-    padding: 20px 10px;
+}
+.mission {
+    padding-left: 0;
+    padding-right: 0;
 }
 #mission p {
     margin: 0;
-    font-weight: bold;
-}
-
-#meet-the-team {
     text-align: center;
-
-    padding: 20px 10px;
+    padding: 0 10px;
 }
 
 .member-img {
@@ -104,19 +116,69 @@ a {
     .carousel-item {
         height: 300px;
     }
+
+    #core-values, #meet-the-team {
+        padding: 20px 10%;
+    }
+    #mission {
+        padding: 30px 10%;
+    }
+
+    #mission p {    
+        font-size: 22px;
+        text-align: center;
+    }
+    .mission {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
 }
 @media screen and (min-width: 980px) {
+
+    #navigation-bar {
+        height: 100px;
+    }
+    #navigation-bar img {
+        height: 100px;
+    }
+
     .carousel-item {
         height: 400px;
     }
+    #core-values, #meet-the-team {
+        padding: 20px 12%;
+    }
+    #mission {
+        padding: 40px 12%;
+    }
+
+    #core-values h3 {
+        font-size: 25px;
+    }
+    #core-values p {
+        font-size: 20px;
+    }
+
 }
 @media screen and (min-width: 1200px) {
     .carousel-item {
         height: 500px;
     }
+    #core-values, #meet-the-team {
+        padding: 20px 15%;
+    }
+    #mission {
+        padding: 40px 15%;
+    }
 }
 @media screen and (min-width: 1500px) {
     .carousel-item {
         height: 600px;
+    }
+    #core-values, #meet-the-team {
+        padding: 20px 20%;
+    }
+    #mission {
+        padding: 40px 20%;
     }
 }
