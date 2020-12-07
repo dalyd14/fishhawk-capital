@@ -1,5 +1,11 @@
+a {
+    text-decoration: unset;
+    color: #1B3769;
+}
+
 #navigation-bar {
     height: 75px;
+    text-align: center;
 }
 #navigation-bar img {
     height: 75px;
@@ -16,7 +22,7 @@
     position: absolute;
     top: 0;
     left: 0;
-    width:30%;
+    width:25%;
     height: 100%;
     z-index: 2;
 
@@ -25,4 +31,92 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.carousel-item {
+    height: 200px;
+}
+.carousel-item img {
+    margin-top: -10%;
+}
+
+#carousel-img-1 {
+    background-image: url("../images/marshall-sq-1.jpg");
+    background-size: cover;
+    background-position: center;
+}
+#carousel-img-2 {
+    background-image: url("../images/marshall-sq-2.jpg");
+    background-size: cover;
+    background-position: center;
+}
+#carousel-img-3 {
+    background-image: url("../images/marshall-sq-3.jpg");
+    background-size: cover;
+    background-position: center;
+}
+#carousel-img-4 {
+    background-image: url("../images/marshall-sq-4.jpg");
+    background-size: cover;
+    background-position: center;
+}
+#carousel-img-5 {
+    background-image: url("../images/marshall-sq-5.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+#core-values {
+    background-color: white;
+    color: #1B3769;
+
+    text-align: center;
+}
+
+#mission {
+    background-color: #1B3769;
+    color: white;
+
+    text-align: center;
+
+    padding: 20px 10px;
+}
+#mission p {
+    margin: 0;
+    font-weight: bold;
+}
+
+#meet-the-team {
+    text-align: center;
+
+    padding: 20px 10px;
+}
+
+.member-img {
+    max-height: 450px;
+    padding: 20px 0;
+}
+
+.container-fluid {
+    padding: 0;
+}
+
+@media screen and (min-width: 768px) {
+    .carousel-item {
+        height: 300px;
+    }
+}
+@media screen and (min-width: 980px) {
+    .carousel-item {
+        height: 400px;
+    }
+}
+@media screen and (min-width: 1200px) {
+    .carousel-item {
+        height: 500px;
+    }
+}
+@media screen and (min-width: 1500px) {
+    .carousel-item {
+        height: 600px;
+    }
 }
