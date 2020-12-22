@@ -2,151 +2,76 @@ a {
     text-decoration: unset;
     color: #1B3769;
 }
-html {
-    background: url('../images/arlington-va.jpg') no-repeat center center fixed; 
+
+body {
+    background-color: transparent;
+}
+p {
+    margin: 0;
+}
+#landing-page {
+    min-height: 100vh;
+    background-image: url('../images/arlington-va-2.jpg'); 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    background-position: center;
 }
-body {
-    background-color: transparent;
-}
-
 #navigation-bar {
     height: 75px;
     text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 #navigation-bar img {
     height: 75px;
 }
-
-#hero-section {
-    height: 600px;
-    width: 100%;
-}
-.hero-img {
-    height: 100%;
-    width: 100%;
-    background-image: url('../images/arlington-va.jpg');
-    background-size: cover;
-    background-position: center;   
-}
-
-#core-values, #mission, #meet-the-team {
-    padding: 20px 5%;
-}
-
-#core-values, #meet-the-team {
+#core-values, #mission, #meet-the-team, #contact-us {
     background-color: white;
-    color: #1B3769;
-
-    text-align: center;
 }
-#core-values h2 {
-    margin-bottom: 15px;
+.section-title {
+    text-align: center;
+    
+}
+.section-title h1 {
+    padding: 10px 0;
+    margin: 0;
+    font-family: 'Belleza', sans-serif;
+}
+.section-content {
+    padding: 10px 5px 0 5px;
+    font-family: 'Montserrat', sans-serif;
 }
 #core-values h3 {
-    font-size: 20px;
     margin: 0;
+    color: #A68F69;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
 }
-#core-values p {
-    text-align: justify;
-    padding: 0 10px;
+.card-spacing {
+    padding: 20px 20px;
 }
-
-#mission {
-    background-color: #1B3769;
+.card-format {
+    background-color: #26527E;
     color: white;
-
-    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-.mission {
-    padding-left: 0;
-    padding-right: 0;
-}
-#mission p {
-    margin: 0;
-    text-align: center;
-    padding: 0 10px;
-}
-
 .member-img {
-    max-height: 450px;
+    max-height: 250px;
     padding: 20px 0;
 }
 
-.container-fluid {
-    padding: 0;
-}
-
 @media screen and (min-width: 768px) {
-    .carousel-item {
-        height: 300px;
-    }
 
-    #core-values, #meet-the-team {
-        padding: 20px 10%;
-    }
-    #mission {
-        padding: 30px 10%;
-    }
-
-    #mission p {    
-        font-size: 22px;
-        text-align: center;
-    }
-    .mission {
-        padding-left: 20px;
-        padding-right: 20px;
-    }
 }
 @media screen and (min-width: 980px) {
 
-    #navigation-bar {
-        height: 100px;
-    }
-    #navigation-bar img {
-        height: 100px;
-    }
-
-    .carousel-item {
-        height: 400px;
-    }
-    #core-values, #meet-the-team {
-        padding: 20px 12%;
-    }
-    #mission {
-        padding: 40px 12%;
-    }
-
-    #core-values h3 {
-        font-size: 25px;
-    }
-    #core-values p {
-        font-size: 20px;
-    }
-
 }
 @media screen and (min-width: 1200px) {
-    .carousel-item {
-        height: 500px;
-    }
-    #core-values, #meet-the-team {
-        padding: 20px 15%;
-    }
-    #mission {
-        padding: 40px 15%;
-    }
+
 }
 @media screen and (min-width: 1500px) {
-    .carousel-item {
-        height: 600px;
-    }
-    #core-values, #meet-the-team {
-        padding: 20px 20%;
-    }
-    #mission {
-        padding: 40px 20%;
-    }
+
 }
