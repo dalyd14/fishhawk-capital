@@ -100,6 +100,50 @@ p {
     padding: 20px 0;
 }
 
+#news-hero {
+    height: 300px;
+    width: 100%;
+
+    background-image: url('../images/arlington-va-2.jpg');
+    background-position: center;
+    background-size: cover;
+}
+.news-heading {
+    font-family: 'Belleza', sans-serif;
+}
+.news-articles {
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.news-article {
+    display: flex;
+    align-items: center;
+}
+.article-info {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.article-img img {
+    width: 150px;
+    padding: 10px
+}
+.article-title h3 {
+    font-size: 1.25rem;
+    margin: 0;
+}
+.article-preview p {
+    font-size: .8rem;
+    margin-bottom: 5px;
+}
+.article-date h6, .article-source h6 {
+    font-size: .6rem;
+    margin: 0;
+}
+
+
 @media screen and (min-width: 768px) {
 
 }
