@@ -1,6 +1,7 @@
 a {
     text-decoration: none;
     color: unset;
+    cursor: pointer;
 }
 
 body {
@@ -13,6 +14,7 @@ p {
     height: 75px;
     background-color: transparent;
     position: absolute;
+    width: 100%;
 }
 .mobile-menu-shown {
     height: 100vh;
@@ -53,9 +55,10 @@ p {
     height: 75px;
     width: 45px;
     padding: 28px 10px;
+    cursor: pointer;
 }
 .top-bar, .bottom-bar {
-    border-bottom: 3px solid #A68F69;
+    border-bottom: 3px solid #26527E;
     transition: all 750ms;
 }
 .top-bar-menu {
@@ -87,6 +90,9 @@ p {
     font-family: 'Roboto', sans-serif;
     text-align: center;
 }
+.row .value:not(:first-child) {
+    margin-top: 10px;
+}
 .card-spacing {
     padding: 20px 20px;
 }
@@ -95,11 +101,21 @@ p {
     color: white;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+.card-format p {
+    padding: 0 5px 10px 5px;
+}
 .member-img {
     max-height: 250px;
     padding: 20px 0;
 }
 
+/* PROPERTIES PAGE */
+.property-about p {
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px;
+}
+
+/* NEWS PAGE */
 #news-hero {
     height: 300px;
     width: 100%;
@@ -107,9 +123,6 @@ p {
     background-image: url('../images/arlington-va-2.jpg');
     background-position: center;
     background-size: cover;
-}
-.news-heading {
-    font-family: 'Belleza', sans-serif;
 }
 .news-articles {
     font-family: 'Montserrat', sans-serif;
