@@ -9,6 +9,17 @@ $('.menu-btn').click(function() {
     }
 })
 
-$('.menu-items').on('click', 'a', function(){
-    console.log($(this).text())
+$('.menu-items').on('click', 'a', function() {
+    var goToId = $(this).attr('go-to-id')
+    if (window.location.href.indexOf("properties") > -1 || window.location.href.indexOf("news") > -1) {
+        if (goToId === 'core-values' || goToId === 'mission' || goToId === 'our-team') {
+            window.location.href = './index.html#' + goToId
+        }
+    } else {
+        if (goToId === 'core-values' || goToId === 'mission' || goToId === 'our-team') {
+            document.querySelector('#' + goToId).scrollIntoView({
+                behavior: 'smooth' 
+            });
+        }
+    }
 })
