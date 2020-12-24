@@ -16,10 +16,7 @@ $('.btn-learn-more').click(function() {
 })
 
 $('.menu-items').on('click', 'a', function() {
-    if($('#menu-page').hasClass('mobile-menu-shown')) {
-        $('#menu-page').addClass('mobile-menu-hidden').removeClass('mobile-menu-shown')
-        $('.menu-items').toggleClass('d-none')
-    }
+    $('.menu-btn').trigger('click')
     var goToId = $(this).attr('go-to-id')
     if (window.location.href.indexOf("properties") > -1 || window.location.href.indexOf("news") > -1) {
         if (goToId === 'core-values' || goToId === 'mission' || goToId === 'leadership') {

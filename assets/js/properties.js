@@ -9,7 +9,8 @@ var props = [
             './assets/images/marshall-sq-4.jpg',
             './assets/images/marshall-sq-5.jpg',
             './assets/images/marshall-sq-6.jpg',
-        ]
+        ],
+        embedCode: '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1815.799769313539!2d-79.87523211491634!3d36.069279649623965!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88531ba081954641%3A0xadef8afad8ddf172!2s100%20Thornton%20Ct%2C%20Greensboro%2C%20NC%2027407!5e1!3m2!1sen!2sus!4v1608787749615!5m2!1sen!2sus" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>'
     }
 ]
 
@@ -42,6 +43,7 @@ $(document).ready(function() {
             }
             $('.property-name').append($('<h1>').text(props[0].name))
             $('.property-about').append($('<p>').text(props[0].about))
+            $('.property-map').html(props[0].embedCode)
         }
     }
 });
