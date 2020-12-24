@@ -247,17 +247,71 @@ p {
     .card-format {
         padding: 15px 0;
     }
+    .member-img {
+        padding: 0 0 20px 0;
+    }
     /* properties */
     .property-about p {
         margin-bottom: 30px;
     }
+    /* news */
+    #news-hero {
+        height: 400px;
+    }
 }
 @media screen and (min-width: 980px) {
-
+    .value:nth-child(odd) {
+        padding-right: 15px;
+    }
+    .value:nth-child(even) {
+        padding-left: 15px;
+    }
+    .value:nth-child(n+3) {
+        padding-top: 15px;
+    }
+    /* properties */
+    .images {
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    /* news */
+    #news-hero {
+        height: 500px;
+    }
 }
 @media screen and (min-width: 1200px) {
-
+    .learn-more-btn {
+        margin-bottom: 7%;
+    }
+    .value:nth-child(odd) {
+        padding-right: 0;
+    }
+    .value:nth-child(even) {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+    .value:nth-child(n+3) {
+        padding-top: 0;
+    }
+    .card-spacing {
+        padding: 20px 20%;
+    }
+    /* properties */
+    .property-about p {
+        margin: 10px 20% 30px 20%;
+    }
+    .property-map {
+        width: 60%;
+    }
+    /* news */
+    #news-articles-section {
+        margin: 0 10%;
+    }
 }
 @media screen and (min-width: 1500px) {
-
+    /* properties */
+    .images {
+        width: 60%;
+    }
 }
