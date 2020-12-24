@@ -165,7 +165,7 @@ p {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     margin: 0 10px 0 10px;
 }
 .news-articles .news-article:not(:first-child) {
@@ -175,6 +175,10 @@ p {
 }
 .article-main-info {
     display: flex;
+}
+.article-content-info{
+    display: flex;
+    flex-direction: column;
 }
 .article-img img {
     width: 150px;
@@ -187,6 +191,9 @@ p {
 .article-preview p {
     font-size: .8rem;
     margin-bottom: 5px;
+}
+.article-date {
+    margin-top: 10px;
 }
 .article-date h6, .article-source h6 {
     font-size: .6rem;
