@@ -1,4 +1,4 @@
-a {
+a, a:hover, a:active {
     text-decoration: none;
     color: unset;
     cursor: pointer;
@@ -37,7 +37,7 @@ p {
     padding: 0;
     
     list-style: none;
-    color: black;
+    color: white;
     font-family: 'Montserrat', sans-serif;
     font-size: 1.25rem;
 
@@ -86,7 +86,7 @@ p {
 #navigation-bar h1 {
     font-family: 'Belleza', sans-serif;
     margin: 0;
-    color: black;
+    color: white;
     font-size: 2rem;
 }
 .menu-btn {
@@ -99,7 +99,7 @@ p {
     cursor: pointer;
 }
 .top-bar, .bottom-bar {
-    border-bottom: 3px solid black;
+    border-bottom: 3px solid white;
     transition: all 750ms;
 }
 .top-bar-menu {
@@ -154,6 +154,14 @@ p {
     color: #E1BC90;
     font-family: 'Roboto', sans-serif;
     font-size: 2rem;
+}
+#contact-us span {
+    font-size: 40px;
+}
+#copyright {
+    margin-top: 30px;
+    text-align: center;
+    font-size: .75rem;
 }
 
 /* PROPERTIES PAGE */
