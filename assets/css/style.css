@@ -37,6 +37,20 @@ p {
     -o-background-size: cover;
     background-size: cover;
     background-position: center;
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.learn-more-btn {
+    margin-bottom: 15%;
+}
+.btn-learn-more {
+    color: #26527E;
+    background-color: #E1BC90;
+    border-color: #E1BC90;
+
+    font-weight: bolder;
 }
 #navigation-bar {
     height: 75px;
@@ -55,7 +69,7 @@ p {
 #navigation-bar h1 {
     font-family: 'Belleza', sans-serif;
     margin: 0;
-    color: #26527E;
+    color: #E1BC90;
     font-size: 2rem;
 }
 .menu-btn {
@@ -63,12 +77,12 @@ p {
     flex-direction: column;
     justify-content: space-between;
     height: 75px;
-    width: 45px;
-    padding: 28px 10px;
+    width: 65px;
+    padding: 28px 20px;
     cursor: pointer;
 }
 .top-bar, .bottom-bar {
-    border-bottom: 3px solid #26527E;
+    border-bottom: 3px solid #E1BC90;
     transition: all 750ms;
 }
 .top-bar-menu {
@@ -96,7 +110,8 @@ p {
 }
 #core-values h3 {
     margin: 0;
-    color: #A68F69;
+    /* #A68F69 */
+    color: #E1BC90;
     font-family: 'Roboto', sans-serif;
     text-align: center;
 }
@@ -117,6 +132,11 @@ p {
 .member-img {
     max-height: 250px;
     padding: 20px 0;
+}
+.team-member h4 {
+    color: #E1BC90;
+    font-family: 'Roboto', sans-serif;
+    font-size: 2rem;
 }
 
 /* PROPERTIES PAGE */
