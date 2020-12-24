@@ -15,7 +15,7 @@ $('.btn-learn-more').click(function() {
     });
 })
 
-$('.menu-items').on('click', 'a', function() {
+$('#menu-page').on('click', 'a', function() {
     $('.menu-btn').trigger('click')
     var goToId = $(this).attr('go-to-id')
     if (window.location.href.indexOf("properties") > -1 || window.location.href.indexOf("news") > -1) {

@@ -29,6 +29,23 @@ p {
 .menu-items li {
     padding: 10px 0;
 }
+.horiz-menu-pc {
+    display: none;
+}
+.horiz-menu-pc ul {
+    margin: 0;
+    padding: 0;
+    
+    list-style: none;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.25rem;
+
+    display: flex;
+}
+.horiz-menu-pc li {
+    padding: 0 10px;
+}
 #landing-page {
     min-height: 100vh;
     background-image: url('../images/arlington-va-2.jpg'); 
@@ -69,7 +86,7 @@ p {
 #navigation-bar h1 {
     font-family: 'Belleza', sans-serif;
     margin: 0;
-    color: #E1BC90;
+    color: black;
     font-size: 2rem;
 }
 .menu-btn {
@@ -82,7 +99,7 @@ p {
     cursor: pointer;
 }
 .top-bar, .bottom-bar {
-    border-bottom: 3px solid #E1BC90;
+    border-bottom: 3px solid black;
     transition: all 750ms;
 }
 .top-bar-menu {
@@ -260,6 +277,19 @@ p {
     }
 }
 @media screen and (min-width: 980px) {
+    .mobile-menu-shown {
+        height: 75px;
+        background-color: transparent;
+        position: absolute;
+        width: 100%;
+    }
+    .menu-btn, .menu-items {
+        display: none;
+    }
+    .horiz-menu-pc {
+        display: unset;
+    }
+    
     .value:nth-child(odd) {
         padding-right: 15px;
     }
