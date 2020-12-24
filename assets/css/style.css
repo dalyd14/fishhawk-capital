@@ -175,7 +175,7 @@ p {
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    margin: 0 10px 0 10px;
+    margin: 0 10px;
 }
 .news-articles .news-article:not(:first-child) {
     padding-top: 10px;
@@ -209,9 +209,48 @@ p {
     margin: 0;
 }
 
-
+@media screen and (min-width: 600px) {
+    #core-values .section-content {
+        padding: 10px 10% 0 10%;
+    }
+    .card-spacing {
+        padding: 20px 10%;
+    }
+    .card-format .section-content {
+        padding: 10px 7%;
+    }
+    /* properties */
+    .property-about p {
+        margin: 10px 10%;
+    }
+    .property-map {
+        width: 80%;
+    }
+    /* news */
+    .news-article {
+        margin: 0 25px;
+    }
+}
 @media screen and (min-width: 768px) {
-
+    .row .value:not(:first-child) {
+        margin-top: 0;
+    }
+    .value:nth-child(odd) {
+        padding-right: 5px;
+    }
+    .value:nth-child(even) {
+        padding-left: 5px;
+    }
+    .value:nth-child(n+3) {
+        padding-top: 5px;
+    }
+    .card-format {
+        padding: 15px 0;
+    }
+    /* properties */
+    .property-about p {
+        margin-bottom: 30px;
+    }
 }
 @media screen and (min-width: 980px) {
 
