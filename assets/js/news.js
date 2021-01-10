@@ -6,14 +6,6 @@ var newsArticles = [
         websiteName: 'bizjournals.com',
         image: 'https://media.bizj.us/view/img/11697467/8-west*xx1499-1124-251-0.jpg',
         date: 'Dec 11, 2020'
-    },
-    {
-        title: "Unionville powers past Kennett, 45-7",
-        description: "Indians’ explosive offense continues to produce on the ground and in the air",
-        link: 'https://www.unionvilletimes.com/?p=18567',
-        websiteName: 'unionvilletimes.com',
-        image: 'https://www.unionvilletimes.com/wp-content/uploads/2013/10/KHSUHS2013-4.jpg',
-        date: 'Oct 5th, 2013'
     }
 ]
 var ourNews = []
@@ -48,8 +40,6 @@ $(document).ready(function() {
                 )
                 $('.news-articles').append(singleArticle)             
             })
-
-
         }
     }
 });
