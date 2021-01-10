@@ -6,6 +6,8 @@ a, a:hover, a:active {
 
 body {
     background-color: transparent;
+    position: relative;
+    min-height: 100vh;
 }
 p {
     margin: 0;
@@ -158,10 +160,17 @@ p {
 #contact-us span {
     font-size: 40px;
 }
+.page-content {
+    padding-bottom: 3rem;
+}
 #copyright {
     margin-top: 30px;
+    margin-bottom: 10px;
     text-align: center;
     font-size: .75rem;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
 }
 
 /* PROPERTIES PAGE */

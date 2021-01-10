@@ -11,13 +11,41 @@
     <title>FishHawk Capital</title>
 </head>
 <body>
-    <section id="menu-page" class="mobile-menu-hidden position-relative">
-        <div id="navigation-bar">
-            <a href="/">
-                <h1 class="text-dark">FishHawk|Capital</h1>
-            </a>
-            <div class="horiz-menu-pc">
-                <ul class="text-dark">
+    <div class="page-content">
+        <section id="menu-page" class="mobile-menu-hidden position-relative">
+            <div id="navigation-bar">
+                <a href="/">
+                    <h1 class="text-dark">FishHawk|Capital</h1>
+                </a>
+                <div class="horiz-menu-pc">
+                    <ul class="text-dark">
+                        <li>
+                            <a href="/properties">Properties</a> 
+                        </li>
+                        <li>
+                            <a go-to-id="core-values">Core Values</a>
+                        </li>
+                        <li>
+                            <a go-to-id="mission">Mission</a>
+                        </li>
+                        <li>
+                            <a go-to-id="leadership">Leadership</a>
+                        </li>
+                        <li>
+                            <a href="/news">News</a> 
+                        </li>
+                        <li>
+                            <a go-to-id="get-in-touch">Get In Touch</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="menu-btn">
+                    <div class="top-bar border-dark"></div>
+                    <div class="bottom-bar border-dark"></div>
+                </div>
+            </div>
+            <div class="menu-items d-none">
+                <ul>
                     <li>
                         <a href="/properties">Properties</a> 
                     </li>
@@ -38,53 +66,27 @@
                     </li>
                 </ul>
             </div>
-            <div class="menu-btn">
-                <div class="top-bar border-dark"></div>
-                <div class="bottom-bar border-dark"></div>
+        </section>
+        <section id="property">
+            <div class="images">
+                <div id="image-carousel" class="carousel slide d-none" data-ride="carousel">
+                    <ol class="carousel-indicators"></ol>
+                    <div class="carousel-inner"></div>
+                    <a class="carousel-control-prev" href="#image-carousel" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#image-carousel" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                    </a>
+                </div>
             </div>
-        </div>
-        <div class="menu-items d-none">
-            <ul>
-                <li>
-                    <a href="/properties">Properties</a> 
-                </li>
-                <li>
-                    <a go-to-id="core-values">Core Values</a>
-                </li>
-                <li>
-                    <a go-to-id="mission">Mission</a>
-                </li>
-                <li>
-                    <a go-to-id="leadership">Leadership</a>
-                </li>
-                <li>
-                    <a href="/news">News</a> 
-                </li>
-                <li>
-                    <a go-to-id="get-in-touch">Get In Touch</a>
-                </li>
-            </ul>
-        </div>
-    </section>
-    <section id="property">
-        <div class="images">
-            <div id="image-carousel" class="carousel slide d-none" data-ride="carousel">
-                <ol class="carousel-indicators"></ol>
-                <div class="carousel-inner"></div>
-                <a class="carousel-control-prev" href="#image-carousel" role="button" data-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="sr-only">Previous</span>
-                </a>
-                <a class="carousel-control-next" href="#image-carousel" role="button" data-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="sr-only">Next</span>
-                </a>
-            </div>
-        </div>
-        <div class="property-name section-title"></div>
-        <div class="property-about"></div>
-        <div class="property-map"></div>
-    </section>
+            <div class="property-name section-title"></div>
+            <div class="property-about"></div>
+            <div class="property-map"></div>
+        </section>        
+    </div>
 
     <section id="copyright">
         <p>Copyright <span id="current-year">2021</span> FishHawk Capital.</p>
