@@ -151,6 +151,8 @@ p {
 .member-img {
     max-height: 250px;
     padding: 20px 0;
+
+    cursor: pointer;
 }
 .team-member h4 {
     color: #E1BC90;
@@ -171,6 +173,38 @@ p {
     position: absolute;
     bottom: 0;
     width: 100%;
+}
+/* MODAL STYLING */
+.modal-content {
+    border: none;
+    border-radius: unset;
+}
+.modal-header {
+    border-color: #E1BC90;
+}
+.modal-header h3 {
+    color: #26527E;
+    font-family: 'Belleza', sans-serif;
+    font-size: 2rem;
+}
+.modal-header span {
+    color: #26527E;
+}
+.modal-body h5 {
+    font-family: 'Roboto', sans-serif;
+}
+.modal-body p {
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 10px;
+}
+.modal-footer {
+    border-color: #E1BC90;
+}
+.btn-modal {
+    color: #fff;
+    background-color: #26527E;
+    border-color: #26527E;
+    font-family: 'Montserrat', sans-serif;
 }
 
 /* PROPERTIES PAGE */

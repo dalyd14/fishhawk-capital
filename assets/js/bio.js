@@ -22,8 +22,8 @@ var bios = [
 ]
 
 $(document).ready(function() {
-    // if (window.location.href.indexOf("index") > -1) {
-    if (window.location.pathname === "/") {
+    if (window.location.href.indexOf("index") > -1) {
+    // if (window.location.pathname === "/") {
         if (bios.length > 0) {
             bios.forEach(bio => {
                 var singleBio = $("<div>").attr({
@@ -32,7 +32,7 @@ $(document).ready(function() {
                     "aria-labelledby": bio.id + "Modal",
                     "aria-hidden": "true"
                 }).addClass('modal fade').html(
-                    `
+                    ` 
                     <div class="modal-dialog">
                         <div class="modal-content">
                             <div class="modal-header">
@@ -50,7 +50,7 @@ $(document).ready(function() {
                                 `)}
                             </div>
                             <div class="modal-footer">
-                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                <button type="button" class="btn btn-modal" data-dismiss="modal">Close</button>
                             </div>
                         </div>
                     </div>`
