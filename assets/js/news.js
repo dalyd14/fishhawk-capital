@@ -12,7 +12,6 @@ var ourNews = []
 
 $(document).ready(function() {
     if (window.location.href.indexOf("news") > -1) {
-        console.log("you're in news");
         if (newsArticles.length > 0) {
             newsArticles.forEach(article => {
                 var singleArticle = $("<a>").attr('href', article.link).attr("target", "_blank").addClass('news-article').html(
