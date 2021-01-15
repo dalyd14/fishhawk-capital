@@ -22,8 +22,8 @@ var bios = [
 ]
 
 $(document).ready(function() {
-    if (window.location.href.indexOf("index") > -1) {
-    // if (window.location.pathname === "/") {
+    // if (window.location.href.indexOf("index") > -1) {
+    if (window.location.pathname === "/") {
         if (bios.length > 0) {
             bios.forEach(bio => {
                 var singleBio = $("<div>").attr({
