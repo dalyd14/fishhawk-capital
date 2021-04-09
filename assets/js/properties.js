@@ -1,7 +1,9 @@
 var props = [
     {
-        name: 'Marshall Square',
-        about: "Marshall Square consists of three residential buildings with 12 (2) Bedroom units in each located in Northwest Greensboro, NC. The property is conveniently located within a 10-minute drive of several major attractions in the downtown area including Elm Street (main street) and UNC Greensboro. The immediate surrounding area has experienced significant commercial development in recent years. Rent and job growth in the Piedmont Triad have outpaced levels achieved in other major North Carolina cities over the past two years. The city of Greensboro is conveniently and centrally located within a two-hour drive of Charlotte, Winston-Salem, Durham, and Raleigh. Built in 2007, Marshall Square has averaged occupancy of over 89% over the last 3 years.",
+        name: 'MARSHALL SQUARE',
+        location: 'Greensboro, NC',
+        size: '32 Units',
+        about: "Marshall Square is a 32-Unit, Class B property built in 2007 and 2015 and located in Northwest Greensboro, NC. FishHawk Capital acquired the property in March 2021 for $2,830,000.",
         images: [
             './assets/images/marshall-sq-1.jpg',
             './assets/images/marshall-sq-2.jpg',
@@ -16,7 +18,6 @@ var props = [
 
 $(document).ready(function() {
     if (window.location.href.indexOf("properties") > -1) {
-        console.log("you're in properties");
         if (props.length > 0) {
             if (props[0].images.length > 0) {
                 $('#image-carousel').removeClass('d-none')
@@ -42,6 +43,8 @@ $(document).ready(function() {
                 }
             }
             $('.property-name').append($('<h1>').text(props[0].name))
+            $('.property-location').append($('<h4>').text(props[0].location))
+            $('.property-size').append($('<h4>').text(props[0].size))
             $('.property-about').append($('<p>').text(props[0].about))
             $('.property-map').html(props[0].embedCode)
         }

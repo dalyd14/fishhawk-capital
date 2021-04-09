@@ -208,6 +208,10 @@ p {
 }
 
 /* PROPERTIES PAGE */
+.property-location h4, .property-size h4 {
+    text-align: center;
+    font-family: 'Belleza', sans-serif;
+}
 .property-about p {
     font-family: 'Montserrat', sans-serif;
     margin: 10px;
@@ -319,6 +323,12 @@ p {
         padding: 0 0 20px 0;
     }
     /* properties */
+    .property-location h4 {
+        margin-top: 10px;
+    }
+    .property-size h4 {
+        margin-bottom: 30px;
+    }
     .property-about p {
         margin-bottom: 30px;
     }
