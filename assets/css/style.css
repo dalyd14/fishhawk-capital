@@ -322,6 +322,11 @@ p {
     .member-img {
         padding: 0 0 20px 0;
     }
+    #core-values, #mission, #get-in-touch {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
     /* properties */
     .property-location h4 {
         margin-top: 10px;
@@ -359,6 +364,10 @@ p {
     }
     .value:nth-child(n+3) {
         padding-top: 15px;
+    }
+    #core-values, #mission, #get-in-touch {
+        margin-top: 30px;
+        margin-bottom: 40px;
     }
     /* properties */
     .images {
