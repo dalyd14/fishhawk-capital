@@ -1,5 +1,13 @@
 var newsArticles = [
     {
+        title: "Top Cities where Apartment Rents are Growing",
+        description: "Ranked: 30 metros where apartment rents have grown the fastest since early 2020",
+        link: 'https://www.bizjournals.com/charlotte/news/2021/10/15/msas-apartment-rents-growth.html',
+        websiteName: 'bizjournals.com',
+        image: 'https://media.bizj.us/view/img/11842206/forrenthomesign01*150xx4864-3648-304-0.jpg',
+        date: 'Oct 15, 2021'
+    },
+    {
         title: "Focus On Guilford Apartment Boom",
         description: "Apartment boom forecasts economic and population expansion",
         link: 'https://bizjournals.com/triad/news/2020/12/11/focus-on-guilford-apartment-boom.html',
