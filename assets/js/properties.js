@@ -3,7 +3,7 @@ var props = [
         name: 'MARSHALL SQUARE',
         location: 'Greensboro, NC',
         size: '32 Units',
-        about: "Marshall Square is a 32-Unit, Class B property built in 2007 and 2015 and located in Northwest Greensboro, NC. FishHawk Capital acquired the property in March 2021 for $2,830,000.",
+        about: "Marshall Square is a 34-Unit, Class B property built in 2007 and 2015 and located in Northwest Greensboro, NC. FishHawk Capital acquired the property in March 2021 for $2,830,000.",
         images: [
             'https://images1.apartments.com/i2/P0HOnwkgCm_fXIKVgiH7Ga5jAYPuwIvtLtjfV5xju2U/111/marshall-square-apartments-greensboro-nc-master-bedroom.jpg?p=1',
             'https://images1.apartments.com/i2/nzzts5glstkz9PN3HWT4AcuBZOjAo9Yi6kWzxATNodY/112/marshall-square-apartments-greensboro-nc-second-room.jpg?p=1',

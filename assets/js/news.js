@@ -8,6 +8,14 @@ var newsArticles = [
         date: 'Oct 15, 2021'
     },
     {
+        title: "Amazon opens delivery station at Rock Creek Center",
+        description: "Amazon opens delivery station at Rock Creek Center in Whitsett and in Garner",
+        link: 'https://www.bizjournals.com/triad/news/2021/07/15/amazon-opens-delivery-station-at-rock-creek-center.html',
+        websiteName: 'bizjournals.com',
+        image: 'https://media.bizj.us/view/img/12056896/amazon-load-out*750xx2000-1125-0-188.jpg',
+        date: 'Jul 15, 2021'
+    },
+    {
         title: "Focus On Guilford Apartment Boom",
         description: "Apartment boom forecasts economic and population expansion",
         link: 'https://bizjournals.com/triad/news/2020/12/11/focus-on-guilford-apartment-boom.html',
