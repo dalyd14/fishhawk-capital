@@ -7,7 +7,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Belleza&family=Montserrat&family=Roboto:wght@500;700&display=swap" rel="stylesheet">
-    <link rel="shortcut icon" href="./assets/images/fhc-icon.png" type="image/x-icon">
+    <link rel="shortcut icon" href="./assets/images/FishHawk-Logo.png" type="image/x-icon">
     <link rel="stylesheet" href="./assets/css/style.css">
     <title>FishHawk Capital</title>
 </head>
@@ -21,7 +21,9 @@
                 <div class="horiz-menu-pc">
                     <ul>
                         <li>
-                            <a href="/properties">Properties</a> 
+                            <div class="props-dropdown">
+                                <a class="properties-btn">Properties</a>
+                            </div> 
                         </li>
                         <li>
                             <a go-to-id="core-values">Core Values</a>
@@ -45,7 +47,8 @@
             <div class="menu-items d-none">
                 <ul>
                     <li>
-                        <a href="/properties">Properties</a> 
+                        <a class="properties-btn">Properties <span class="material-icons expand-more">expand_more</span></a>
+                        <ul id="properties-list" class="prop-list-hidden"></ul>
                     </li>
                     <li>
                         <a go-to-id="core-values">Core Values</a>
@@ -119,7 +122,10 @@
     </div>
 
     <section id="copyright">
-        <p>Copyright <span id="current-year">2021</span> FishHawk Capital.</p>
+        <a href="/">
+            <img style="height: 50px;" src="./assets/images/FishHawk-Logo.png" alt="FishHawk Logo">
+        </a>
+        <p>Copyright <span id="current-year">2022</span> FishHawk Capital.</p>
         <p>Made by DND</p>
     </section>
 

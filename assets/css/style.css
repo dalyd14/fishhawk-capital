@@ -163,7 +163,31 @@ p {
     font-size: 40px;
 }
 .page-content {
-    padding-bottom: 3rem;
+    padding-bottom: 6rem;
+}
+.expand-more {
+    transform:rotate(0deg);
+    transition: transform .75s
+}
+.expand-less {
+    transform:rotate(-180deg);
+    transition: transform .75s
+}
+.properties-btn {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.properties-btn span {
+    margin-left: 10px;
+}
+.prop-list-hidden {
+    height: 0px;
+    visibility: hidden;
+}
+.prop-list-visible {
+    height:100%;
+    visibility: visible;
 }
 #copyright {
     margin-top: 30px;
@@ -174,6 +198,79 @@ p {
     bottom: 0;
     width: 100%;
 }
+/* PROPERTY DROPDOWN */
+/* Dropdown Button */
+  
+  /* The container <div> - needed to position the dropdown content */
+  .props-dropdown {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    margin-top: 3.2rem;
+    border-radius: 10px;
+    width: 250px
+  }
+
+  .dropdown-content::before {
+	content: '';
+	position: absolute;
+	width: 0;
+	height: 0;
+	bottom: 100%;
+	border: 1.3rem solid transparent;
+	border-top: none;
+
+	border-bottom-color: #f1f1f1;
+	filter: drop-shadow(0 -0.0625rem 0.0625rem rgba(0, 0, 0, .2));
+}
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  .dropdown-content a:hover:first-of-type {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  .dropdown-content a:hover:last-of-type {
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+  
+  /* Show the dropdown menu on hover */
+  .props-dropdown:hover .dropdown-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .properties-btn:hover {
+    color: lightgrey;
+  }
+
 /* MODAL STYLING */
 .modal-content {
     border: none;
@@ -224,6 +321,9 @@ p {
 .property-map > * {
     width: 100%;
     height: 450px;
+}
+#property {
+    margin-bottom: 3rem;
 }
 
 /* NEWS PAGE */
@@ -368,6 +468,9 @@ p {
     #core-values, #mission, #get-in-touch {
         margin-top: 30px;
         margin-bottom: 40px;
+    }
+    .page-content {
+        padding-bottom: 4rem;
     }
     /* properties */
     .images {
