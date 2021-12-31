@@ -20,7 +20,9 @@
                 <div class="horiz-menu-pc">
                     <ul class="text-dark">
                         <li>
-                            <a href="/properties">Properties</a> 
+                            <div class="props-dropdown">
+                                <a class="properties-btn">Properties</a>
+                            </div> 
                         </li>
                         <li>
                             <a go-to-id="core-values">Core Values</a>
@@ -44,7 +46,8 @@
             <div class="menu-items d-none">
                 <ul>
                     <li>
-                        <a href="/properties">Properties</a> 
+                        <a class="properties-btn">Properties <span class="material-icons expand-more">expand_more</span></a>
+                        <ul id="properties-list" class="prop-list-hidden"></ul>
                     </li>
                     <li>
                         <a go-to-id="core-values">Core Values</a>
