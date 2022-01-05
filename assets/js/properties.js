@@ -16,11 +16,11 @@ var props = [
         embedCode: '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1815.799769313539!2d-79.87523211491634!3d36.069279649623965!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88531ba081954641%3A0xadef8afad8ddf172!2s100%20Thornton%20Ct%2C%20Greensboro%2C%20NC%2027407!5e1!3m2!1sen!2sus!4v1608787749615!5m2!1sen!2sus" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>'
     },
     {
-        name: '116 Markley',
-        urlPath: '116-markley',
+        name: '116 N. Markley',
+        urlPath: '116-n-markley',
         location: 'Greenville, SC',
-        size: '3000 sq ft',
-        about: "Fortis Riders is a global travel logistics provider of private pilot, executive chauffeur and security services. This workplace design embodies the brand vision and core values by celebrating the successes of its associates in an environment that supports various styles of working.",
+        size: '10,068 sq ft',
+        about: "116 N. Markley Street is a Single-tenant, Office Building consisting of 10,068 rentable square feet located in downtown Greenville, SC. The current tenant, Fortis, has been in the space since 2017 and recently extended their lease through January of 2035. The property is conveniently located within walking distance of Greenville’s major attractions including Falls Park on the Reedy, Main Street, the Swamp Rabbit Trail, and Fluor Field (home of the High-A Minor League Baseball team the Greenville Drive). The immediate surrounding area has experienced significant commercial development in recent years including new residential and retail projects.",
         images: [
             'https://www.johnstondesigngroup.us/wp-content/uploads/1-Fortis-Riders.jpg',
             'https://www.johnstondesigngroup.us/wp-content/uploads/2-Fortis-Riders.jpg',
