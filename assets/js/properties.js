@@ -20,7 +20,7 @@ var props = [
         urlPath: '116-n-markley',
         location: 'Greenville, SC',
         size: '10,068 sq ft',
-        about: "116 N. Markley Street is a Single-tenant, Office Building consisting of 10,068 rentable square feet located in downtown Greenville, SC. The current tenant, Fortis, has been in the space since 2017 and recently extended their lease through January of 2035. The property is conveniently located within walking distance of Greenville’s major attractions including Falls Park on the Reedy, Main Street, the Swamp Rabbit Trail, and Fluor Field (home of the High-A Minor League Baseball team the Greenville Drive). The immediate surrounding area has experienced significant commercial development in recent years including new residential and retail projects.",
+        about: "116 N. Markley Street is a Single-tenant, Office Building consisting of 10,068 rentable square feet located in downtown Greenville, SC. The property is conveniently located within walking distance of Greenville’s major attractions including Falls Park on the Reedy, Main Street, the Swamp Rabbit Trail, and Fluor Field (home of the High-A Minor League Baseball team the Greenville Drive). The immediate surrounding area has experienced significant commercial development in recent years including new residential and retail projects.",
         images: [
             'https://www.johnstondesigngroup.us/wp-content/uploads/1-Fortis-Riders.jpg',
             'https://www.johnstondesigngroup.us/wp-content/uploads/2-Fortis-Riders.jpg',
