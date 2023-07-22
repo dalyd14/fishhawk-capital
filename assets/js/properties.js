@@ -33,6 +33,25 @@ var props = [
             'https://www.johnstondesigngroup.us/wp-content/uploads/10-Fortis-Riders.jpg'
         ],
         embedCode: '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5096.959656809649!2d-82.41306589687647!3d34.84566352926587!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x885831d1b85476ab%3A0x2ae8abc610964694!2sFortis%20Riders!5e1!3m2!1sen!2sus!4v1640986487040!5m2!1sen!2sus" style="border:0;" allowfullscreen=""></iframe>'
+    },
+    {
+        name: 'Osprey at Mauldin',
+        urlPath: 'osprey-at-mauldin',
+        location: 'Mauldin, SC',
+        size: '20 Units',
+        about: "The Osprey at Mauldin is a 20-Unit, Class B property located in Mauldin, SC. FishHawk Capital acquired the property in March 2023 for $2,120,000.",
+        images: [
+            'https://www.freerentalsite.com/propimg/2023/05/04/C5B547C8379F4FE3BA7893A65F004FB3.jpg',
+            'https://www.freerentalsite.com/propimg/2023/05/04/26ECE4DC360245E68A2A4DF18A16076A.jpg',
+            'https://www.freerentalsite.com/propimg/2023/05/04/F2E9D49D925D499983CCA337184FC631.jpg',
+            'https://www.freerentalsite.com/propimg/2023/06/15/41C99E89622449A09E0613173E3F6841.jpg',
+            'https://www.freerentalsite.com/propimg/2023/06/15/46041180AE494F6889E2FA838B0A1580.jpg',
+            'https://www.freerentalsite.com/propimg/2023/06/15/F9B381F3ABC846BBB278CE0F8D831AC1.jpg',
+            'https://www.freerentalsite.com/propimg/2023/05/04/C87300140CF5452FA52373B2C197FB2F.jpg',
+            'https://www.freerentalsite.com/propimg/2023/05/04/71E519C2E86244A1B25B8B6A596FFBD6.jpg',
+            'https://www.freerentalsite.com/propimg/2023/05/04/161E2DC53ED04C9B8604C8F0AE0F087C.jpg'
+        ],
+        embedCode: '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2952.4961399565923!2d-82.30599269999999!3d34.7868489!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x885825fc8d05b347%3A0xb285845abc3a5c41!2s202%20Miller%20Rd%2C%20Mauldin%2C%20SC%2029662!5e1!3m2!1sen!2sus!4v1690054816539!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>'
     }
 ]
 

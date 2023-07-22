@@ -16,7 +16,7 @@ $('.menu-btn').click(function() {
 })
 
 $('.btn-learn-more').click(function() {
-    document.querySelector('#core-values').scrollIntoView({
+    document.querySelector('#get-in-touch').scrollIntoView({
         behavior: 'smooth' 
     });
 })
