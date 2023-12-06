@@ -70,7 +70,7 @@ var props = [
             'https://www.plazaone89.com/wp-content/uploads/2018/10/IMG-0003-1-1024x768.jpg',
             'https://www.plazaone89.com/wp-content/uploads/2018/10/IMG-0012-1-768x1024.jpg'
         ],
-        embedCode: '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3280.8775230477577!2d-82.84305122301186!3d34.68304048415821!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88585e42f93527bb%3A0xa3a9f15a6987b63c!2sPlaza%20One%2089!5e0!3m2!1sen!2sus!4v1701895910982!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>'
+        embedCode: '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5216.082624532959!2d-82.84305122301186!3d34.68304048415821!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88585e42f93527bb%3A0xa3a9f15a6987b63c!2sPlaza%20One%2089!5e1!3m2!1sen!2sus!4v1701897206903!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>'
     }
 ]
 
