@@ -4,7 +4,7 @@ var props = [
         urlPath: 'marshall-square',
         location: 'Greensboro, NC',
         size: '34 Units',
-        about: "Marshall Square is a 34-Unit, Class B property built in 2007 and 2015 and located in Northwest Greensboro, NC. FishHawk Capital acquired the property in March 2021 for $2,830,000.",
+        about: "Marshall Square is a 34-Unit, Class B property built in 2007 and 2015 and located in Northwest Greensboro, NC. FishHawk Capital acquired the property in March 2021.",
         images: [
             'https://images1.apartments.com/i2/P0HOnwkgCm_fXIKVgiH7Ga5jAYPuwIvtLtjfV5xju2U/111/marshall-square-apartments-greensboro-nc-master-bedroom.jpg?p=1',
             'https://images1.apartments.com/i2/nzzts5glstkz9PN3HWT4AcuBZOjAo9Yi6kWzxATNodY/112/marshall-square-apartments-greensboro-nc-second-room.jpg?p=1',
@@ -39,7 +39,7 @@ var props = [
         urlPath: 'osprey-at-mauldin',
         location: 'Mauldin, SC',
         size: '20 Units',
-        about: "The Osprey at Mauldin is a 20-Unit, Class B property located in Mauldin, SC. FishHawk Capital acquired the property in March 2023 for $2,120,000.",
+        about: "The Osprey at Mauldin is a 20-Unit, Class B property located in Mauldin, SC. FishHawk Capital acquired the property in March 2023.",
         images: [
             'https://www.freerentalsite.com/propimg/2023/05/04/C5B547C8379F4FE3BA7893A65F004FB3.jpg',
             'https://www.freerentalsite.com/propimg/2023/05/04/26ECE4DC360245E68A2A4DF18A16076A.jpg',
@@ -52,6 +52,25 @@ var props = [
             'https://www.freerentalsite.com/propimg/2023/05/04/161E2DC53ED04C9B8604C8F0AE0F087C.jpg'
         ],
         embedCode: '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2952.4961399565923!2d-82.30599269999999!3d34.7868489!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x885825fc8d05b347%3A0xb285845abc3a5c41!2s202%20Miller%20Rd%2C%20Mauldin%2C%20SC%2029662!5e1!3m2!1sen!2sus!4v1690054816539!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>'
+    },
+    {
+        name: 'Plaza One 89',
+        urlPath: 'plaza-one-89',
+        location: 'Clemson, SC',
+        size: '12 Units',
+        about: "Plaza One 89 is a 42-bed (12 units) Class A community at Clemson University in Clemson, SC. Perfectly positioned adjacent to campus, Plaza One 89 is located less than 0.3 miles from Memorial Stadium and 0.1 miles from downtown Clemson, home to numerous restaurants, bars and boutique shops.",
+        images: [
+            'https://www.plazaone89.com/wp-content/uploads/2019/08/IMG_5194-1024x768.jpg',
+            'https://www.plazaone89.com/wp-content/uploads/2019/08/IMG_6015-1024x768.jpg',
+            'https://www.plazaone89.com/wp-content/uploads/2019/08/IMG_4225-1024x768.jpg',
+            'https://www.plazaone89.com/wp-content/uploads/2019/08/IMG_7469-1024x768.jpg',
+            'https://www.plazaone89.com/wp-content/uploads/2019/08/IMG_2040-1024x768.jpg',
+            'https://www.plazaone89.com/wp-content/uploads/2019/08/IMG_8949-1024x768.jpg',
+            'https://www.plazaone89.com/wp-content/uploads/2019/08/IMG_2068-768x1024.jpg',
+            'https://www.plazaone89.com/wp-content/uploads/2018/10/IMG-0003-1-1024x768.jpg',
+            'https://www.plazaone89.com/wp-content/uploads/2018/10/IMG-0012-1-768x1024.jpg'
+        ],
+        embedCode: '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3280.8775230477577!2d-82.84305122301186!3d34.68304048415821!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88585e42f93527bb%3A0xa3a9f15a6987b63c!2sPlaza%20One%2089!5e0!3m2!1sen!2sus!4v1701895910982!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>'
     }
 ]
 
